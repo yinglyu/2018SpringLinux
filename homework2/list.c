@@ -28,25 +28,25 @@ int main(int argc, char **argv)
     	case 'l':
     		low = atoi(optarg);
         	printf("low = %d B\n",low);
-        	lflag = 1;
+        	lflg = 1;
         break;
       	case 'h':
     		high = atoi(optarg);
         	printf("high = %d B\n",high);
-        	hflag = 1;
+        	hflg = 1;
         break;
       	case 'm':
     		modify = atoi(optarg);
         	printf("modify within %d day(s)\n",modify);
-        	mflag = 1;
+        	mflg = 1;
         break;
       	case 'r':
 			printf("recursion");
-			rflag = 1;
+			rflg = 1;
         break;
       	case 'a':
         	printf("all");
-        	aflag = 1;
+        	aflg = 1;
     	break;
 
       	case '?':
