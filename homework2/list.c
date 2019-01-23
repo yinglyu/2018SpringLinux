@@ -27,7 +27,7 @@ int main(int argc, char **argv)
     {
     	case 'l':
     		low = atoi(optarg);
-        	printf(low = %d B\n",low);
+        	printf("low = %d B\n",low);
         	lflag = 1;
         break;
       	case 'h':
@@ -53,7 +53,8 @@ int main(int argc, char **argv)
         	errflg++;
         break;
       	default:
-        	break;
+        	
+        break;
     }
   }
 
